@@ -30,6 +30,12 @@ figure > img {
 	display: block;
 }
 /* utility class  */
+.text-size-20{
+    font-size: 20px;
+}
+.text-size-30{
+    font-size: 30px;
+}
 .text-xs {
     font-size: 14px;
 }
@@ -56,10 +62,12 @@ figure > img {
 .player{
     background-color: var(--dark-gray);
     color: white;
+    display: flex;
+    
 }
 
 .player-item img {
-    width: 45px;
+    min-width: 30px;
     aspect-ratio: 1;
 }
 .player-item{
@@ -78,7 +86,42 @@ figure > img {
     margin-left: 10px;
     margin-right: 20px;
 }
-
+/* secondo elemento  */
+.time-line{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+.time-line-action{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.time-line-bar{
+    display: flex;
+    align-items: center;
+}
+/* barra  */
+.bar-total{
+    height: 3px;
+    min-width: 130px;
+    background-color: #5A5A5A;
+    margin: 0 20px;
+    border-radius: 50px;
+}
+.bar-current{
+    height: 3px;
+    width: 25%;
+    background-color: #C1C1C1;
+    border-radius: 50px;
+}
+/* terzo elemento  */
+.action{
+    align-items:center;
+    gap: 15px;
+    
+}
 /* MEDIA  */
 /* Small devices */
 
