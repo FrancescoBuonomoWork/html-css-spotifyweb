@@ -1,0 +1,38 @@
+:root {
+    --dark-gray:#282828;
+    --dark-blue:#141922;
+    --dark-black:#080B12;
+    --pure-black:#000000;
+    --green:#9AE22D;
+    --gray:#7D7F84;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure > img {
+	width: 100%;
+	display: block;
+}
+
+/* APP  */
+#app {
+    height: 100vh;
+    overflow: hidden;
+    
+}
