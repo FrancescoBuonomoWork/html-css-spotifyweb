@@ -34,5 +34,35 @@ figure > img {
 #app {
     height: 100vh;
     overflow: hidden;
-    
+    display: flex;
+    flex-direction: column;
+}
+.container-main{
+    flex-grow: 1;
+    display: flex;
+
+}
+.app-content{
+    flex-grow: 1;
+}
+/* debug */
+.debug #app{
+    padding: 20px;
+    border: green solid 2px;
+}
+.debug .container{
+    padding: 20px;
+    border: blue solid 2px;
+}
+.debug .player{
+    padding: 20px;
+    border: violet solid 2px;
+}
+.debug .app-content{
+    padding: 20px;
+    border: red solid 2px;
+}
+.debug .aside{
+    padding: 20px;
+    border: darkcyan solid 2px;
 }
