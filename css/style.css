@@ -26,10 +26,17 @@ img {
 }
 
 figure > img {
-	width: 100%;
+	/* width: 100%; */
 	display: block;
 }
-
+/* utility class  */
+.text-xs {
+    font-size: 14px;
+}
+.fx-direction-column{
+    display: flex;
+    flex-direction: column;
+}
 /* APP  */
 #app {
     height: 100vh;
@@ -40,10 +47,60 @@ figure > img {
 .container-main{
     flex-grow: 1;
     display: flex;
-
+    
 }
 .app-content{
     flex-grow: 1;
+}
+/* Player  */
+.player{
+    background-color: var(--dark-gray);
+    color: white;
+}
+
+.player-item img {
+    width: 45px;
+    aspect-ratio: 1;
+}
+.player-item{
+    display: flex;
+}
+.author-song{
+    font-size: 16px;
+    font-weight: 600;
+}
+.name-song{
+    font-size: 14px;
+    font-weight: 400;
+}
+.current-song-data{
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* MEDIA  */
+/* Small devices */
+
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices  */
+
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices  */
+
+@media (min-width: 992px) { 
+    
+}
+
+/* x-large devices  */
+@media (min-width: 1200px) { 
+    
 }
 /* debug */
 .debug #app{
