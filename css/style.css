@@ -91,6 +91,7 @@ figure > img {
     display: flex;
     flex-direction: column;
     margin: 0 8px;
+    width: 40%;
 }
 .time-line-action{
     display: flex;
@@ -101,18 +102,20 @@ figure > img {
 .time-line-bar{
     display: flex;
     align-items: center;
+   
 }
 /* barra  */
 .bar-total{
     height: 3px;
-    min-width: 130px;
+    width: 80%;
+    
     background-color: #5A5A5A;
     margin: 0 10px;
     border-radius: 50px;
 }
 .bar-current{
     height: 3px;
-    width: 25%;
+    width: 15%;
     background-color: #C1C1C1;
     border-radius: 50px;
 }
@@ -120,7 +123,15 @@ figure > img {
 .action{
     align-items:center;
     gap: 15px;
+    width: 20%;
     
+}
+.volume{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    /* min-width: 85px; */
+    /* flex-grow: 1; */
 }
 /* MEDIA  */
 /* Small devices */
@@ -138,7 +149,9 @@ figure > img {
 /* Large devices  */
 
 @media (min-width: 992px) { 
-    
+ .player{
+    justify-content: space-between;
+ }   
 }
 
 /* x-large devices  */
