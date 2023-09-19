@@ -88,8 +88,8 @@ figure > img {
 }
 /* secondo elemento  */
 .time-line{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0 8px;
     width: 40%;
 }
@@ -102,16 +102,25 @@ figure > img {
 .time-line-bar{
     display: flex;
     align-items: center;
+    justify-content: center;
    
 }
 /* barra  */
 .bar-total{
-    height: 3px;
-    width: 80%;
+    height: 5px;
     
     background-color: #5A5A5A;
     margin: 0 10px;
     border-radius: 50px;
+}
+.bar-player{
+    width: 100%;
+    max-width: 400px;
+}
+.bar-volume{
+    
+    width: 5vw;
+    max-width: 150px;
 }
 .bar-current{
     height: 3px;
@@ -123,13 +132,13 @@ figure > img {
 .action{
     align-items:center;
     gap: 15px;
-    width: 20%;
+   
     
 }
 .volume{
     display: flex;
     align-items: center;
-    width: 80%;
+    /* width: 80%; */
     /* min-width: 85px; */
     /* flex-grow: 1; */
 }
@@ -137,21 +146,21 @@ figure > img {
 /* Small devices */
 
 @media (min-width: 576px) {
-
+    .player{
+        justify-content: space-between;
+     }  
 }
 
 /* Medium devices  */
 
 @media (min-width: 768px) { 
-    
+   
 }
 
 /* Large devices  */
 
 @media (min-width: 992px) { 
- .player{
-    justify-content: space-between;
- }   
+ 
 }
 
 /* x-large devices  */
