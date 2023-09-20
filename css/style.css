@@ -65,9 +65,16 @@ figure > img {
     display: flex;
     
 }
+.current-song-action{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 
 .player-item img {
-    width: 30px;
+    
+    max-width: 45px;
     aspect-ratio: 1;
 }
 .player-item{
