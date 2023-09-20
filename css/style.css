@@ -64,6 +64,9 @@ figure > img {
     overflow: hidden;
     background-color: var(--pure-black);
 }
+.aside-header img{
+    padding: 5px 10px;
+}
 
 /* APP CONTENT  */
 .app-content{
@@ -77,6 +80,7 @@ figure > img {
     color: white;
     display: flex;
     overflow: hidden;
+    padding: 20px 10px;
     
 }
 /* .current-song-action{
