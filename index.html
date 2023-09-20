@@ -11,34 +11,34 @@
     <div id="app">
         <main class="container-main">
             <!-- Inizio aside  -->
-            <aside class="aside">
+            <aside class="aside flex direct-colum">
                 
                 <!-- inizio header aside  -->
                 <section class="aside-header">
                     <img class="logo-small" src="./img/logo-small.svg">
                     <img class="logo-full" src="./img/logo.svg">
-                    
-                    <div class="aside-header__page">
-                        <img src="./img/home.svg">
-                        <span>Home</span>   
-                    </div>
-                    
-                    
-                    <div class="aside-header__page">
-                        <img src="./img/search.svg">
-                        <span>Cerca</span>
-                    </div>
-                    <div class="aside-header__page">
-                        <img src="./img/libreria.svg">
-                        <span>La tua libreria</span>
-                    </div> 
+
+                    <ul>
+                        <li class="aside-header__page select-element">
+                            <img src="./img/home.svg">
+                            <span class="display-none-mobile">Home</span>   
+                        </li>
+                        <li class="aside-header__page">
+                            <img src="./img/search.svg">
+                            <span class="display-none-mobile">Cerca</span>
+                        </li>
+                        <li class="aside-header__page">
+                            <img src="./img/libreria.svg">
+                            <span class="display-none-mobile">La tua libreria</span>
+                        </li> 
+                    </ul>
                     
                     
                 </section>
                 <!-- fine header aside  -->
                 <div class="container-aside">
                     <section class="aside-playlist">
-                        <h3 class="playlist-header margin-bottom10">Playlist</h3>
+                        <h3 class="playlist-header margin-bottom10 color-white">Playlist</h3>
                         <div class="flex align-center gap-10 margin-bottom10" >
                             <div class="playlist-create-button">
                                 <i class="fa-solid fa-plus color-black  "></i>    
@@ -56,25 +56,23 @@
                                 
                             </ul>
     
-                    </section >
-                
-                    <section class="aside-footer">
-                        <div class="flex align-center gap-10 install flex-wrap margin-bottom10">
-                            <img class="istall-img" src="./img/download.svg">
-                            <span class="display-none-mobile">Istalla app</span>
-                        </div>
-                        <div class="flex align-center gap-10 margin-bottom10 ">
-                            <img class="profile-img" src="./img/profile.svg">
-                            <span class="display-none-mobile">John Dho</span>
-                        </div>
-
-    
                     </section>
-                </div>  
-    
+                </div>
+                <section class="aside-footer">
+                    <div class="flex align-center gap-10 install flex-wrap margin-bottom10">
+                      <img class="istall-img" src="./img/download.svg">
+                        <span class="display-none-mobile">Istalla app</span>
+                    </div>
+                    <div class="flex align-center gap-10 margin-bottom10 ">
+                        <img class="profile-img" src="./img/profile.svg">
+                        <span class="display-none-mobile color-white">John Dho</span>
+                    </div>
+                </section>
+
+                
             </aside>
             <!-- fine aside  -->
-
+            
             <div class="app-content">
 
             </div>
