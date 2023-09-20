@@ -49,6 +49,7 @@ figure > img {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 .container-main{
     flex-grow: 1;
@@ -66,10 +67,20 @@ figure > img {
 }
 .aside-header img{
     padding: 5px 10px;
+    
 }
 .logo-full{
     display: none;
 }
+.aside-header__page img {
+    width: 50px;
+}
+.aside-header__page{
+    /* width: 50px; */
+    display: flex;
+    align-items: center;
+}
+
 
 /* APP CONTENT  */
 .app-content{
