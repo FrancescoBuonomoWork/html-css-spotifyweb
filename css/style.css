@@ -71,6 +71,8 @@ figure > img {
 }
 .logo-full{
     display: none;
+    width: 70%;
+    margin-top: 10px;
 }
 .aside-header__page img {
     width: 50px;
