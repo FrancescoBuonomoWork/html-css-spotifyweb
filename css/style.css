@@ -67,6 +67,9 @@ figure > img {
 .aside-header img{
     padding: 5px 10px;
 }
+.logo-full{
+    display: none;
+}
 
 /* APP CONTENT  */
 .app-content{
@@ -209,7 +212,13 @@ figure > img {
     
     width: 45px;
     aspect-ratio: 1;
-} 
+    }
+    .logo-full{
+        display: block;
+    }
+    .logo-small{
+        display: none;
+    } 
 }
 
 /* Large devices  */
