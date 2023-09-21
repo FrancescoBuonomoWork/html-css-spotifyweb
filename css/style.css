@@ -177,7 +177,7 @@ figure > img {
     width: 36px;
     aspect-ratio: 1;
     position: relative;
-
+    
 }
 .playlist-create-button i {
     font-size: 18px;
@@ -194,6 +194,31 @@ figure > img {
     flex-grow: 1;
     background-color: var(--dark-blue);
 }
+.container-external{
+    height: 100%;
+    position: relative;
+}
+.container-top{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.upgrade {
+    border-radius: 50px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    /* line-height: 45px; */
+    padding: 15px 40px;
+    margin-right: 5px;
+}
+
+
 
 /* Player  */
 .player{
