@@ -116,6 +116,7 @@ img {
     color: rgb(255,255,255,0.5);
     
 }
+
 .aside-header img{
     padding: 5px 10px;
     
@@ -222,6 +223,9 @@ img {
     padding: 15px 40px;
     margin-right: 40px;
 }
+.upgrade:hover{
+    transform: scale(1.2);
+}
 /* Main content inside  */
 .container-inside {
     /* max-width: 1230px; */
@@ -229,7 +233,8 @@ img {
     width: 100%;
     height: 100%;
     overflow: auto;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .main-app-list{
     font-size: 12px;
@@ -242,6 +247,9 @@ img {
 }
 .main-app-list__item{
     position: relative;
+}
+.main-app-list__item:hover{
+    color: white;
 }
 .select-main-app-list__item::after{
     content: '';
@@ -267,12 +275,13 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+    
 }
 .card-app__img:hover .play-hovered{
     display: block;
 }
-.card-app__img:hover .card-app__img img{
-    opacity: 0.6;
+.card-app__img:hover .card-img{
+    filter: opacity(0.5);
 }
 .card-app__img-circle img {
     border-radius: 999px;
@@ -323,6 +332,9 @@ img {
     font-size: 14px;
     font-weight: 400;
     color: var(--gray);
+}
+.name-song:hover.name-song{
+    text-decoration: underline;
 }
 .current-song-data{
     line-height: 1.2;
