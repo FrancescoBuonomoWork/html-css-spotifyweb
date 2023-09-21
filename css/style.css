@@ -210,7 +210,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: end;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
     
 }
 .upgrade {
@@ -219,15 +220,16 @@ img {
     text-transform: uppercase;
     /* line-height: 45px; */
     padding: 15px 40px;
-    margin-right: 5px;
+    margin-right: 40px;
 }
 /* Main content inside  */
 .container-inside {
-    max-width: 1230px;
+    /* max-width: 1230px; */
     margin: 0 auto;
     width: 100%;
     height: 100%;
     overflow: auto;
+    padding-top: 100px;
 }
 .main-app-list{
     font-size: 12px;
@@ -236,8 +238,18 @@ img {
     display: flex;
     gap: 20px;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
+   
+    margin-bottom: 40px;
+    position: relative;
+}
+.select-main-app-list__item::after{
+    content: '';
+	position: absolute;
+	display: block;
+	height: 5px;
+	width: 2px;
+	background-color: var(--green);
+	
 }
 /* card-app */
 .card-app{
